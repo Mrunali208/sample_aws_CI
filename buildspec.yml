@@ -3,8 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - ls
-      - echo "Build completed"
+      - python -m unittest discover
 
 artifacts:
   files:
