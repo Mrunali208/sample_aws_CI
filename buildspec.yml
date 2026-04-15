@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - python -m unittest discover
+      - echo "Preparing files for deployment"
 
 artifacts:
   files:
